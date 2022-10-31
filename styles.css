@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(4, 4, 37);
+  margin: 10rem;
+}
+#contenair {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 30rem;
+  background-color: rgb(1, 1, 56);
+  border: solid 1px bisque;
+  border-radius: 15px;
+}
+.contenaire-advice-title {
+  color: aqua;
+}
+.contenaire-advice {
+  color: aliceblue;
+}
+.advice-disign {
+  color: bisque;
+  margin-bottom: 1rem;
+}
+.advice-disign-dé {
+  align-items: center;
+  margin-top: -1.6rem;
+  padding-top: 0.7rem;
+  background-color: aqua;
+  width: 3rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
