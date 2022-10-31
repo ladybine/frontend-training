@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(4, 4, 37);
+  background-color: rgb(23, 23, 34);
   margin: 10rem;
 }
 #contenair {
@@ -18,8 +18,8 @@ body {
   text-align: center;
   margin: auto;
   width: 30rem;
-  background-color: rgb(1, 1, 56);
-  border: solid 1px bisque;
+  background-color: rgb(31, 31, 44);
+
   border-radius: 15px;
 }
 .contenaire-advice-title {
@@ -29,10 +29,9 @@ body {
   color: aliceblue;
 }
 .advice-disign {
-  color: bisque;
-  margin-bottom: 1rem;
+  margin: 3rem;
 }
-.advice-disign-dé {
+.advice-disign-de {
   align-items: center;
   margin-top: -1.6rem;
   padding-top: 0.7rem;
@@ -40,4 +39,11 @@ body {
   width: 3rem;
   height: 2.5rem;
   border-radius: 50%;
+}
+.advice-disign-de img {
+  width: 21px;
+  margin: 4px;
+}
+.advice-disign-de :hover {
+  box-shadow: 0px 0px 10px aqua, 0px 0px 20px aqua, 0px 0px 40px aqua;
 }
